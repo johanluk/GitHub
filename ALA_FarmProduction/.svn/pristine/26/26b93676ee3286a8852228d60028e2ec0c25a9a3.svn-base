@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ALA_FarmProduction
+</name>
+</assembly>
+<members>
+<member name="P:ALA_FarmProduction.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ALA_FarmProduction.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ALA_FarmProduction.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProdutionDaily_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyHeader_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyDetail_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_PDProductionDailyDetail_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDInventoryEgg_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDShift_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDHenHouse_GetDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProdutionDaily_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyHeader_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyDetail_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_PDProductionDailyDetail_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDInventoryEgg_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDShift_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDHenHouse_GetDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProdutionDaily_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyHeader_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PDProductionDailyDetail_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_PDProductionDailyDetail_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDInventoryEgg_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDShift_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet.sp_PD_MDHenHouse_GetDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PDProdutionDaily_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PDProductionDailyHeader_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PDProductionDailyDetail_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PD_PDProductionDailyDetail_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PD_MDInventoryEgg_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PD_MDShift_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.sp_PD_MDHenHouse_GetDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ALA_FarmProduction.DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ALA_FarmProduction.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ALA_FarmProduction.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.UpdateAll(ALA_FarmProduction.DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ALA_FarmProduction.DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

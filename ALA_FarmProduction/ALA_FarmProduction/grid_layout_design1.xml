@@ -1,0 +1,22 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt, style=Bold</property>
+  </property>
+  <property name="Row" iskey="true" value="Row">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt</property>
+  </property>
+  <property name="FooterPanel" iskey="true" value="FooterPanel">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+      <property name="UseFont">true</property>
+    </property>
+    <property name="BackColor">255, 255, 192</property>
+    <property name="Font">Segoe UI, 12pt, style=Bold</property>
+  </property>
+</XtraSerializer>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{358BD9E4-9B83-4355-A849-A29C75EB33FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ALA_FarmProduction.My.MyApplication</StartupObject>
+    <RootNamespace>ALA_FarmProduction</RootNamespace>
+    <AssemblyName>ALA_FarmProduction</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ALA_FarmProduction.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ALA_FarmProduction.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet.vb">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyFood.designer.vb">
+      <DependentUpon>Frm_PDDailyFood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyFood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PDDailyOther.designer.vb">
+      <DependentUpon>Frm_PDDailyOther.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyOther.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PDDailyVOV.designer.vb">
+      <DependentUpon>Frm_PDDailyVOV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyVOV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PDDailyOverHead.designer.vb">
+      <DependentUpon>Frm_PDDailyOverHead.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyOverHead.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PDDailyFowls.designer.vb">
+      <DependentUpon>Frm_PDDailyFowls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyFowls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PD_HPP.designer.vb">
+      <DependentUpon>Frm_PD_HPP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PD_HPP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PDDailyEgg.designer.vb">
+      <DependentUpon>Frm_PDDailyEgg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PDDailyEgg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm1.Designer.vb">
+      <DependentUpon>RibbonForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_RekapHarian.designer.vb">
+      <DependentUpon>Rpt_RekapHarian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_RekapHarian.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt_InventoryTransaction.Designer.vb">
+      <DependentUpon>Rpt_InventoryTransaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_InventoryTransaction.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.vb">
+      <DependentUpon>XtraForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Harian.Designer.vb">
+      <DependentUpon>Rpt_Harian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Harian.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt_EggProduction.Designer.vb">
+      <DependentUpon>Rpt_EggProduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_EggProduction.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Frm_PDDailyFood.resx">
+      <DependentUpon>Frm_PDDailyFood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PDDailyOther.resx">
+      <DependentUpon>Frm_PDDailyOther.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PDDailyVOV.resx">
+      <DependentUpon>Frm_PDDailyVOV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PDDailyOverHead.resx">
+      <DependentUpon>Frm_PDDailyOverHead.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PDDailyFowls.resx">
+      <DependentUpon>Frm_PDDailyFowls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PD_HPP.resx">
+      <DependentUpon>Frm_PD_HPP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PDDailyEgg.resx">
+      <DependentUpon>Frm_PDDailyEgg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm1.resx">
+      <DependentUpon>RibbonForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_RekapHarian.resx">
+      <DependentUpon>Rpt_RekapHarian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_InventoryTransaction.resx">
+      <DependentUpon>Rpt_InventoryTransaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Harian.resx">
+      <DependentUpon>Rpt_Harian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_EggProduction.resx">
+      <DependentUpon>Rpt_EggProduction.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

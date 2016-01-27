@@ -1,0 +1,44 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="Cell" iskey="true" value="Cell">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt</property>
+  </property>
+  <property name="FieldValue" iskey="true" value="FieldValue">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt, style=Bold</property>
+  </property>
+  <property name="FieldHeader" iskey="true" value="FieldHeader">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt</property>
+  </property>
+  <property name="HeaderArea" iskey="true" value="HeaderArea">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Tahoma, 12pt</property>
+  </property>
+  <property name="RowHeaderArea" iskey="true" value="RowHeaderArea">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Tahoma, 12pt</property>
+  </property>
+  <property name="ColumnHeaderArea" iskey="true" value="ColumnHeaderArea">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt</property>
+  </property>
+  <property name="DataHeaderArea" iskey="true" value="DataHeaderArea">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseFont">true</property>
+    </property>
+    <property name="Font">Segoe UI, 12pt</property>
+  </property>
+</XtraSerializer>
